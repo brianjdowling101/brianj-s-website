@@ -48,8 +48,7 @@ td {
     /* evenly space the links */
     list-style: none;
     /* remove the bullet points */
-    margin: 10;
-    /* remove any default margin */
+
     padding: 0;
     /* remove any default padding */
 
@@ -103,7 +102,6 @@ td {
 .text {
     font-size: larger;
     color: aquamarine;
-    text-align: auto;
     position: absolute;
     left: 0;
     top: 50vh;
