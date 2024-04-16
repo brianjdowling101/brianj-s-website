@@ -1,1 +1,232 @@
 <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+    /* CSS for styling the tables */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+    }
+
+    th,
+    td {
+        border: 1px solid #dddddd;
+        padding: 8px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+</style>
+
+<body>
+    <!--navigation-bar.-->
+    <section id="nav-bar">
+        <!-- This is an unordered list with a class of "nav" -->
+
+        <div class="nav-box">
+            <p>Brian James</p>
+        </div>
+
+        <ul class="nav">
+            <!-- This is a list item with a class of "titlenav" that links to an unspecified URL -->
+            <li class="titlenav"><a href="">Home</a></li> <!-- Insert URL for this link -->
+            <li class="nav1"><a href="">About Me</a></li> <!-- Link to Home page -->
+            <li class="nav1"><a href="">My CV</a></li> <!--D-->
+            <li class="nav1"><a href="">Where I have traveled ?</a></li> <!-- Link to Home page -->
+            <li class="nav1"><a href="">My Projects</a></li> <!-- Link to Home page -->
+            <li class="nav1"><a href="">Contact</a></li> <!-- Link to Home page -->
+
+
+        </ul>
+    </section>
+
+    <section id="home">
+
+        <img class="myphoto" src="./images/fixie-bike-me.jpg" alt="Myphoto">
+        <div class="text">
+            <h1>Welcome to my website! You will find everything you need to know about me,
+                where, I have traveled, My CV, my projects and how to contact me!</h1>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="context">
+            <h1>About Me</h1>
+            <div class="box">
+
+                <dl>
+                    <dt><br></dt>
+                    <dd></dd>
+                    <dt><br></dt>
+                    <dd></dd>
+                    <dt><br></dt>
+                    <dd></dd>
+
+                    <dt>Age:</dt>
+                    <dd>32</dd>
+
+                    <dt>Location:</dt>
+                    <dd>Dublin, Ireland</dd>
+
+                    <dt>Interests:</dt>
+                    <dd>Writing, traveling, playing guitar</dd>
+
+                    <dt>Skills:</dt>
+                    <dd>HTML, CSS, JavaScript, Python</dd>
+
+                    <dt>Goals:</dt>
+                    <dd>To become a software developer</dd>
+                </dl>
+
+            </div>
+    </section>
+
+    <section id="MY Curriculum Vitae">
+        <div class="context">
+            <div class="box">
+
+                <h1>MY Curriculum Vitae</h1>
+
+                <table>
+                    <tr>
+                        <th>Degree</th>
+                        <th>School/University</th>
+                        <th>Year of Graduation</th>
+                    </tr>
+                    <tr>
+                        <td>Bachelor's in Arts</td>
+                        <td>Maynooth University</td>
+                        <td>2015</td>
+                    </tr>
+                    <!-- Add more rows for additional education entries -->
+                </table>
+
+                <table>
+                    <tr>
+                        <th>Position</th>
+                        <th>Company</th>
+                        <th>Duration</th>
+                    </tr>
+                    <tr>
+                        <td>Library Assistant</td>
+                        <td>Trinity College Dublin</td>
+                        <td>2018 - Present</td>
+                    </tr>
+                    <!-- Add more rows for additional work experience entries -->
+                </table>
+    </section>
+
+    <section id="travel">
+        <h1>Where I have traveled?</h1>
+        <div class="box">
+
+            <div class="travel-context">
+                <img class="project-libary" src="images/earth.jpg" alt="Myphoto">
+                <h1>USA</h1>
+                <ul>
+                    <li>New York City</li>
+                    <li>San Francisco</li>
+                </ul>
+            </div>
+
+            <div class="travel-context">
+                <img class="project-libary" src="images/map1.jpg" alt="Myphoto">
+                <h1>Europe</h1>
+                <ul>
+                    <li>Paris, France</li>
+                    <li>Rome, Italy</li>
+                </ul>
+            </div>
+
+            <div class="travel-context">
+                <img class="project-libary" src="images/man.jpg" alt="Myphoto">
+                <h1>Asia</h1>
+                <ul>
+                    <li>Japan, Tokyo</li>
+                    <li>Beijing, China</li>
+                </ul>
+
+
+            </div>
+        </div>
+
+    </section>
+
+    <section id="Projects">
+        <div class="projects">
+            <h1>Projects</h1>
+            <div class="box">
+
+                <ol>
+                    <li>
+                        <h3>Online Bookstore Website</h3>
+                        <p>A web application where users can browse and purchase books online. Implemented using
+                            HTML/CSS, JavaScript, and a backend technology such as Node.js or Django.</p>
+                    </li>
+
+                    <li>
+                        <h3>Weather App</h3>
+                        <p>An application that fetches weather data from an API and displays it to the user.
+                            Built using
+                            HTML, CSS, JavaScript, and integrating with a weather API like OpenWeatherMap or
+                            Weatherstack.</p>
+                    </li>
+
+                    <li>
+                        <h3>Task Manager Application</h3>
+                        <p>A task management tool where users can create, edit, and delete tasks. Developed
+                            using a
+                            frontend framework like React or Vue.js, and a backend framework like Express.js or
+                            Flask.
+                        </p>
+                    </li>
+
+                    <li>
+                        <h3>Personal Portfolio Website</h3>
+                        <p>A website showcasing your coding projects, resume, and contact information. Designed
+                            with
+                            HTML/CSS and may include interactive elements using JavaScript or a frontend
+                            framework.</p>
+                    </li>
+                </ol>
+            </div>
+
+
+            <section id="Contact">
+                <div class="context">
+                    <h1>Contact</h1>
+
+                    <table style="width:100%">
+                        <tr>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Instragm</th>
+                            <th>Contact Number</th>
+                            <th>Country</th>
+                        </tr>
+                        <tr>
+                            <td>Brian James</td>
+                            <th><a
+                                    href="https://accounts.google.com/InteractiveLogin/signinchooser?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&emr=1&ltmpl=default&ltmplcache=2&osid=1&passive=true&rm=false&scc=1&service=mail&ss=1&ifkv=ARZ0qKLi8LvomUsudjt4SMR-SRwNIzmZkEglowmdAnle9O9ZnfAgtI_MQfE9r2JHTGLQlgkPEyQg&theme=mn&ddm=0&flowName=GlifWebSignIn&flowEntry=ServiceLogin">brianjdowling101@gmail.com</a>
+                            </th>
+                            <th><a href="https://www.instagram.com/">brianjdowling101</a>
+                            </th>
+                            <td>+353 87****931</td>
+                            <td>Ireland</td>
+                        </tr>
+                    </table>
+                    <script src="index.js"></script>
+</body>
+
+</html>
